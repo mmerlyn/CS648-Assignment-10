@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project enhances the Vecta Corp website by integrating various jQuery plugins and jQuery UI components to create a more interactive and user-friendly experience.
+This assignment enhances the Vecta Corp website by integrating various jQuery plugins and jQuery UI components to create a more interactive and user-friendly experience.
 
 ## Features Implemented
 
