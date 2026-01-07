@@ -1,78 +1,74 @@
-# CS648 Assignment 10 - jQuery Plugins & jQuery UI Integration
+# jQuery Plugins & jQuery UI Integration
+
+_This project shows how to use jQuery plugins and jQuery UI widgets to make a website more interactive. It includes custom plugins, tabs, accordions, tooltips, and form styling on the Vecta Corp website._
 
 ## Overview
 
-This assignment enhances the Vecta Corp website by integrating various jQuery plugins and jQuery UI components to create a more interactive and user-friendly experience.
-
-## Features Implemented
-
-### General Enhancements
-
-- **Tooltip Widget**: Added descriptive tooltips to navigation menu items
-  - Each of the 5 menu items displays unique text about Vecta Corp's solutions
-  - Tooltips appear on hover: "Vecta Corp. offers 3 solutions for prospecting, converting, and retaining customers"
-
-### Home Page
-
-#### 1. Tabbed Interface for Solutions
-
-- Implemented jQuery UI Tabs widget to organize the 3 Vecta Corp solutions
-- Horizontal tabbed navigation for easy access
-- Content displays dynamically when users click on each tab
-- Positioned directly under "Our Solutions" heading
-
-#### 2. Client Testimonials Accordion
-
-- Added jQuery UI Accordion widget for the 2 client testimonials
-- Collapsible sections with product images
-- Located under "Client Testimonials" heading
-- Smooth expand/collapse animations
-
-### About Us Page
-
-#### 1. Management Team Tabs
-
-- jQuery UI Tabs widget dividing the 5 Vecta Corp managers
-- Each tab displays individual manager bio and photo
-- Positioned in the Management Team section under "Meet the Managers" heading
-
-#### 2. Headquarters Image Slideshow
-
-- Auto-rotating slideshow using Cycle 2 plugin
-- Features the new Vecta Corp headquarters
-- Includes user-friendly navigation controls
-- Allows manual cycling through images with next/previous buttons
-- Smooth transition effects between slides
-
-### Solutions Page
-
-#### 1. Solutions Content Display
-
-- Formatted and enhanced content under "Our Solutions" heading
-- Implemented Quick Nav feature for easy navigation between solutions
-
-#### 2. Quick Nav Implementation
-
-- Developed using jQuery Slideshow plugin
-- Stays visible and playable when clicked
-- Smooth scrolling navigation between different solutions
-- Does not automatically advance
-
-#### 3. Back to Top Functionality
-
-- Integrated Google's jQuery Back to Top plugin
-- Smooth scroll animation to page top
-- Provides easy navigation for long content pages
-
-### Contact Us Page
-
-- Enhanced contact form with jQuery validation and styling
-- Improved user experience with interactive form elements
+This project adds interactive features to a corporate website using jQuery. It includes three custom plugins for mobile menus, sticky elements, and scroll-to-top buttons. It also uses jQuery UI widgets like tabs, accordions, and tooltips to improve the user experience.
 
 ## Technologies Used
 
-- **jQuery**: Core JavaScript library for DOM manipulation
-- **jQuery UI**: UI components (Tabs, Accordion, Tooltip)
-- **Cycle 2 Plugin**: Image slideshow functionality
-- **jQuery Slideshow Plugin**: Quick navigation feature
-- **Back to Top Plugin**: Smooth scroll-to-top functionality
+- HTML5
+- CSS3
+- jQuery 3.7.1
+- jQuery UI 1.13.2
+- Skeleton CSS (Grid system)
+- Cycle 2 Plugin (Image slideshow)
+
+## What I Implemented
+
+### Custom jQuery Plugins (js/)
+
+- **Mobile Menu Plugin**: Changes the navigation menu into a dropdown on small screens
+- **Sticky Plugin**: Keeps elements fixed on screen while scrolling
+- **GoTop Plugin**: Adds a button that scrolls back to the top of the page
+
+### Home Page (index.html)
+
+- **Tabs**: Shows 3 product solutions in a tabbed layout (vProspect, vConvert, vRetain)
+- **Accordion**: Displays client reviews in collapsible sections
+- **Tooltips**: Shows helpful text when hovering over menu items
+- **Mobile Menu**: Makes navigation work on phones
+
+### About Us Page (aboutus.html)
+
+- **Vertical Tabs**: Lists 5 team members in side-by-side tabs
+- **Class Changes**: Used `.addClass()` and `.removeClass()` to style vertical tabs
+- **Image Slideshow**: Auto-playing slideshow of 5 building photos using Cycle 2
+- **Prev/Next Buttons**: Lets users manually move through slideshow images
+
+### Solutions Page (solutions.html)
+
+- **Sticky Navigation**: Quick Nav menu stays visible while scrolling down
+- **Accordion**: Links to jump to different product sections
+- **Back-to-Top Button**: Smooth scroll back to page top
+
+### Contact Us Page (contactus.html)
+
+- **Styled Checkboxes**: Made 3 checkboxes look better with jQuery UI
+- **Styled Radio Buttons**: Made 4 radio buttons look better
+- **Styled Dropdown**: Improved the company size select menu
+- **Styled Button**: Made the submit button match the theme
+
+### CSS and Layout
+
+- **Grid System**: 960px wide page with 16 columns
+- **Responsive Design**: Works on desktop, tablet, and mobile
+- **jQuery UI Theme**: Uses the Smoothness theme for consistent styling
+
+## Learnings
+
+- Building custom jQuery plugins with options
+- Using jQuery UI widgets (Tabs, Accordion, Tooltip)
+- Changing widget styles using `.addClass()` and `.removeClass()`
+- Adding image slideshows with the Cycle 2 plugin
+- Making elements stick while scrolling
+- Building mobile-friendly navigation menus
+- Using `$(document).ready()` to run code when the page loads
+- Styling form elements with jQuery UI
+
+---
+
+**Course:** CS 648 - Modern Web Development Frameworks<br>
+**University:** San Diego State University (SDSU)<br>
+**Author:** Merlyn Mercylona M
